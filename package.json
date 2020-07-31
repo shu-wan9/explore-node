@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "resolve": "nodemon --watch ./path/resolve.test.js --exec jest ./path/resolve.test.js",
+    "isAbsolute": "nodemon --watch ./path/isAbsolute.test.js --exec jest ./path/isAbsolute.test.js",
+    "join": "nodemon --watch ./path/join.test.js --exec jest ./path/join.test.js"
+  },
+  "devDependencies": {
+    "jest": "^26.1.0",
+    "nodemon": "^2.0.4"
+  }
+}
